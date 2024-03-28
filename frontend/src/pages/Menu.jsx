@@ -1,8 +1,10 @@
+
 const Menu = () => {
   return (
-    <div>
+    <section className="max-w-6xl mx-auto">
       <h1>This is a Menu Page</h1>
-    </div>
+   
+    </section>
   );
 };
 

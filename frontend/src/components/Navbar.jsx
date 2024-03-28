@@ -29,13 +29,13 @@ const Navbar = () => {
   const notActive = "text-slate-800  ";
 
   return (
-    <nav className=" ">
-      <div className="flex items-center justify-between max-w-6xl mx-auto py-4">
+    <nav className=" sticky top-0 bg-opacity-20 bg-white z-50  	">
+      <div className="flex items-center justify-between max-w-6xl mx-auto py-4 px-4 backdrop-blur-3xl rounded-3xl  ">
         <div>
           <img src={assets.logo} alt="Logo Image" />
         </div>
         <div>
-          <ul className="flex items-center justify-center gap-10 text-lg ">
+          <ul className="flex items-center justify-between gap-10 text-lg ">
             {pages.map((page) => (
               <li key={page.href}>
                 <Link
