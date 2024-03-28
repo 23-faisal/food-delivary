@@ -1,7 +1,11 @@
+import AppDownload from "../components/AppDownload/AppDownload";
+
 const MobileApp = () => {
   return (
-    <div>
-      <h1>Mobile App</h1>
+    <div className="">
+      <div className="my-32">
+        <AppDownload />
+      </div>
     </div>
   );
 };

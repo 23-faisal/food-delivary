@@ -5,8 +5,8 @@ import { StoreContext } from "../../context/StoreContext";
 const FoodItem = ({ id, name, price, description, image }) => {
   const { cartItem, addToCart, removeFromCart } = useContext(StoreContext);
   return (
-    <div className=" ">
-      <div className="w-full   hover:scale-105 transition ease-in-out duration-100 hover:shadow-md rounded-lg cursor-pointer shadow-sm shadow-[#FF4C24] hover:shadow-[#FF4C24] ">
+    <div className=" mb-12">
+      <div className="w-full   hover:scale-105 transition ease-in-out duration-200 hover:shadow-md rounded-lg cursor-pointer shadow-sm shadow-[#FF4C24] hover:shadow-[#FF4C24] ">
         <div className="relative">
           <img
             className="object-fit rounded-t-lg w-full    "

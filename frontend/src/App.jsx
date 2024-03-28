@@ -8,6 +8,7 @@ import ContactUs from "./pages/ContactUs";
 import PageNotFound from "./pages/PageNotFound";
 import Cart from "./pages/Cart/Cart";
 import Order from "./pages/Order/Order";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/order" element={<Order />} />
           <Route path="/*" element={<PageNotFound />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
